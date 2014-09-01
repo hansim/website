@@ -4,7 +4,7 @@
 <header id="header" role="header">
     <div class="boxed">
         <div id="tagline">
-            <h1>Documentation.</h1>
+            <h1><a href="{{ Config::get('app.url') }}" style="color:white; font-wight:bold;">Laravel China</a></h1>
         </div>
 
         <div id="version">
@@ -22,18 +22,15 @@
 <nav id="primary">
     <div class="boxed">
         <div id="logo-head">
-            <a href="//laravel.com"><img src="../assets/img/logo-head.png" alt="Laravel"></a>
+            <a href="/"><img src="{{ cdn('assets/img/logo-head.png') }}" alt="Laravel"></a>
         </div>
         <ul class="primary-nav-ul">
-            <li><a href="/">Welcome</a></li>
-            <li><a href="https://forge.laravel.com">Hosting</a></li>
-            <li class="current-item"><a href="docs" title="Documentation">Documentation</a></li>
-            <li><a href="{{ url('api') }}/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
-            <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
-            <li><a href="http://laravel.io/forum" title="Laravel Forums">Forums</a></li>
-            <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+            <li class="current-item"><a href="docs" title="Documentation">文档</a></li>
+            <li><a href="http://phphub.org" title="PHPhub">论坛</a></li>
+            <li><a href="https://github.com/laravel-china/docs" >纠错</a></li>
+            <li><a href="http://laravel.com/api/4.2/" title="Laravel Framework API">API</a></li>
         </ul>
-        <a href="#" class="show-primary-nav">Menu</a>
+        <a href="#" class="show-primary-nav">菜单</a>
     </div>
 </nav>
 
@@ -69,16 +66,15 @@
 
         <nav id="secondary">
             <div id="logo-foot">
-                <a href="//laravel.com"><img src="../assets/img/logo-foot.png" alt="Laravel"></a>
+                <a href="//laravel.com"><img src="{{ cdn('assets/img/logo-foot.png') }}" alt="Laravel"></a>
             </div>
             <ul>
-                <li><a href="/">Welcome</a></li>
+                <li><a href="http://laravel.com">官网</a></li>
                 <li><a href="https://forge.laravel.com">Hosting</a></li>
-                <li class="current-item"><a href="docs" title="Documentation">Documentation</a></li>
-                <li><a href="api/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
-                <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
-                <li><a href="http://laravel.io/forum" title="Laravel Forums">Forums</a></li>
-                <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                <li><a href="http://laravel.com/docs" title="Documentation">英文文档</a></li>
+                <li><a href="//github.com/laravel/laravel" title="Github">Laravel at Github</a></li>
+                <li><a href="http://laravel.io/forum" title="Laravel Forums">英文论坛</a></li>
+                <li><a href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
             </ul>
         </nav>
 

@@ -81,3 +81,28 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+
+/*
+|--------------------------------------------------------------------------
+| Some helper functions
+|--------------------------------------------------------------------------
+|
+*/
+function cdn( $filepath )
+{
+    if (Config::get('app.url_static'))
+    {
+        return Config::get('app.url_static') . $filepath;
+    }
+    else
+    {
+        return Config::get('app.url') . $filepath;
+    }
+
+}
+
+function getCdnDomain()
+{
+    return Config::get('app.url_static') ?: Config::get('app.url');
+}
