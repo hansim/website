@@ -71,6 +71,22 @@ color: #f4645f;
 padding: 0 5px;
 border-radius: 3px;
 }
+p {
+line-height: 1.8em;
+}
+#documentation nav#docs {
+width: 170px;
+}
+
+@media only screen and (min-width: 1024px) {
+#documentation #docs-content {
+display: block;
+float: right;
+padding-left: 35px;
+padding-right: 35px;
+width: 830px;
+}
+}
     </style>
 </head>
 
