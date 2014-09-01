@@ -29,9 +29,9 @@
         <ul class="primary-nav-ul">
             <li class="current-item"><a href="#">首页</a></li>
             <li><a href="docs" title="文档">文档</a></li>
-            <li><a href="http://laravel.com/api/4.2/" title="Laravel Framework API">API</a></li>
-            <li><a href="http://phphub" title="Laravel Forums">中文社区</a></li>
-            <li><a href="https://github.com/laravel-china/docs" >纠错</a></li>
+            <li><a href="http://laravel.com/api/4.2/" title="Laravel Framework API"  target="_blank">API</a></li>
+            <li><a href="http://phphub.org" title="Laravel Forums"  target="_blank">中文社区</a></li>
+            <li><a href="https://github.com/laravel-china/docs" target="_blank">纠错</a></li>
         </ul>
         <a href="#" class="show-primary-nav">菜单</a>
     </div>

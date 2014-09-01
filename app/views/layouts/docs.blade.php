@@ -26,9 +26,9 @@
         </div>
         <ul class="primary-nav-ul">
             <li class="current-item"><a href="docs" title="Documentation">文档</a></li>
-            <li><a href="http://phphub.org" title="PHPhub">论坛</a></li>
-            <li><a href="https://github.com/laravel-china/docs" >纠错</a></li>
-            <li><a href="http://laravel.com/api/4.2/" title="Laravel Framework API">API</a></li>
+            <li><a href="http://phphub.org" title="PHPhub"  target="_blank">论坛</a></li>
+            <li><a href="https://github.com/laravel-china/docs"  target="_blank">纠错</a></li>
+            <li><a href="http://laravel.com/api/4.2/" title="Laravel Framework API"  target="_blank">API</a></li>
         </ul>
         <a href="#" class="show-primary-nav">菜单</a>
     </div>
@@ -69,12 +69,12 @@
                 <a href="//laravel.com"><img src="{{ cdn('assets/img/logo-foot.png') }}" alt="Laravel"></a>
             </div>
             <ul>
-                <li><a href="http://laravel.com">官网</a></li>
-                <li><a href="https://forge.laravel.com">Hosting</a></li>
-                <li><a href="http://laravel.com/docs" title="Documentation">英文文档</a></li>
-                <li><a href="//github.com/laravel/laravel" title="Github">Laravel at Github</a></li>
-                <li><a href="http://laravel.io/forum" title="Laravel Forums">英文论坛</a></li>
-                <li><a href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                <li><a href="http://laravel.com"  target="_blank">官网</a></li>
+                <li><a href="https://forge.laravel.com"  target="_blank">Hosting</a></li>
+                <li><a href="http://laravel.com/docs" title="Documentation"  target="_blank">英文文档</a></li>
+                <li><a href="//github.com/laravel/laravel" title="Github"  target="_blank">Laravel at Github</a></li>
+                <li><a href="http://laravel.io/forum" title="Laravel Forums"  target="_blank">英文论坛</a></li>
+                <li><a href="//twitter.com/laravelphp" title="Laravel on Twitter"  target="_blank">Twitter</a></li>
             </ul>
         </nav>
 
