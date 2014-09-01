@@ -16,10 +16,6 @@
 
     <link href="{{ cdn('assets/css/styles.css') }}" rel="stylesheet">
 
-    <!-- fonts -->
-    <script src="{{ cdn('assets/js/source-sans-pro.js') }}"></script>
-    <script src="{{ cdn('assets/js/source-code-pro.js') }}"></script>
-
     <!--[if IE]><link href="{{ cdn('assets/css/ie.css') }}" rel="stylesheet" type="text/css"><![endif]-->
 
     <!-- HTML5 elements in less than IE9, yes please! -->
