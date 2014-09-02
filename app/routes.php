@@ -11,6 +11,12 @@
 |
 */
 
+Route::get('download_link.json', function()
+{
+	$array = array('link' => 'http://laravel-china.qiniudn.com/dist/latest.zip');
+    return $array;
+});
+
 /**
  * Markdown Function...
  */
