@@ -7,3 +7,6 @@ composer.phar
 /public/api
 laravel.phar
 node_modules/
+
+
+Envoy.blade.php
