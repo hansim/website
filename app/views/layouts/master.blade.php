@@ -87,6 +87,13 @@ padding-right: 35px;
 width: 830px;
 }
 }
+
+.primary-nav-ul li a {
+border-bottom: 0;
+font-size: 12px;
+padding: 0 0 0 25px;
+width: auto;
+}
     </style>
 </head>
 
