@@ -90,7 +90,7 @@ width: 830px;
 
 .primary-nav-ul li a {
 border-bottom: 0;
-font-size: 12px;
+font-size: 14px;
 padding: 0 0 0 25px;
 width: auto;
 }
