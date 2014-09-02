@@ -94,6 +94,10 @@ font-size: 14px;
 padding: 0 0 0 25px;
 width: auto;
 }
+.prettyprint code {
+font-family: Monaco,Consolas,"Lucida Console",monospace;
+font-size: 13px;
+}
     </style>
 </head>
 
