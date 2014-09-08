@@ -88,3 +88,13 @@
 </div>
 
 @endsection
+
+@section('script')
+<script>
+    $(document).ready(function(){
+        var currentDoc = document.URL.substr(document.URL.lastIndexOf('/') + 1);
+        var feedbackHtml = '<a href="https://github.com/laravel-china/docs/edit/4.2/'+currentDoc+'.md" class="button animated shake" target="_blank" style="background: #FA837F;padding-top: 7px;">纠 错 - 优化此文档</a>'
+        jQuery( feedbackHtml ).insertAfter( "#docs-content h1" );    
+    });
+</script>
+@endsection

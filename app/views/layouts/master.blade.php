@@ -127,6 +127,8 @@ font-size: 13px;
     </section>
 
 	<script src="{{ cdn('assets/js/bundle.js') }}"></script>
+    
+    @yield('script')
 
 </body>
 </html>
